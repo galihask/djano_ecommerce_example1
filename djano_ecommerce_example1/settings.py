@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'djano_ecommerce_example1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'gali-ecommerce-db',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'galihask1234', # TODO: should not be hard coded
         'HOST': 'gali-ecommerce-db.cxit8ohlzojb.us-east-1.rds.amazonaws.com',
