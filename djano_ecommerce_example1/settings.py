@@ -48,8 +48,24 @@ ALLOWED_HOSTS = [
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:3000",
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com",
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:*",
-    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0"
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:8000",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:3000",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:*",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:3000",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:8000",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:*",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:0",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:8000",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:3000",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:*",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:0"
 ]
+""
 
 # Application definition
 
@@ -177,6 +193,21 @@ CORS_ALLOWED_ORIGINS = [
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:3000",
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com",
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:*",
-    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0"
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:8000",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:3000",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:*",
+    "http://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:3000",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:8000",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:*",
+    "https://ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:0",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:8000",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:3000",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:*",
+    "ec2-16-171-23-217.eu-north-1.compute.amazonaws.com:0"
 ]
 
