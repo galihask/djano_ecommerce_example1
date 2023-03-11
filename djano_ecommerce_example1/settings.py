@@ -24,7 +24,32 @@ SECRET_KEY = 'django-insecure-n5u&ed1=aucl@7_ttafzdzj5tgx%p-&fi7^u(8$(e=+nwdlqb8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "http://13.51.160.145:3000",
+    "http://13.51.160.145",
+    "http://13.51.160.145:*",
+    "http://13.51.160.145:0",
+    "https://13.51.160.145:3000",
+    "https://13.51.160.145",
+    "https://13.51.160.145:*",
+    "https://13.51.160.145:0",
+    "13.51.160.145:3000",
+    "13.51.160.145",
+    "13.51.160.145:*",
+    "13.51.160.145:0",
+    "http://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:3000",
+    "http://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com",
+    "http://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:*",
+    "http://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0",
+    "https://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:3000",
+    "https://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com",
+    "https://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:*",
+    "https://ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0",
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:3000",
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com",
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:*",
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0"
+]
 
 # Application definition
 
@@ -152,7 +177,6 @@ CORS_ALLOWED_ORIGINS = [
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:3000",
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com",
     "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:*",
-    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0",
-
+    "ec2-13-51-160-145.eu-north-1.compute.amazonaws.com:0"
 ]
 
