@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'gali-ecommerce-db',
         'USER': 'postgres',
         'PASSWORD': 'galihask1234', # TODO: should not be hard coded
-        'HOST': 'gali-ecommerce-db.cgfh7kvxevld.eu-north-1.rds.amazonaws.com',
+        'HOST': 'gali-ecommerce-db.cxit8ohlzojb.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
